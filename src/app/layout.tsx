@@ -16,20 +16,20 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://www.puang.in"),
+  metadataBase: new URL("https://www.sunaydev.vercel.app"),
   title: {
-    default: "Karan Kumar",
-    template: "%s | Karan Kumar",
+    default: "Sunay Kulkarni",
+    template: "%s | Sunay Kulkarni",
   },
-  description: "Programmer, filmmaker and uku player",
+  description: "Lazy Programmer",
   openGraph: {
-    title: "Karan Kumar",
-    description: "Programmer, filmmaker and uku player",
-    url: "https://www.puang.in",
-    siteName: "Karan Kumar",
+    title: "Sunay Kulkarni",
+    description: "Lazy Programmer",
+    url: "https://www.sunaydev.vercel.app",
+    siteName: "Sunay Kulkarni",
     locale: "en_US",
     type: "website",
-    images: ["https://www.puang.in/og/home"],
+    images: ["https://www.sunaydev.vercel.app/og/home"],
   },
   robots: {
     index: true,
@@ -39,9 +39,9 @@ export const metadata: Metadata = {
     "max-snippet": -1,
   },
   twitter: {
-    title: "Karan Kumar",
+    title: "Sunay Kulkarni",
     card: "summary_large_image",
-    creator: "@puangg59",
+    creator: "@SunayKLK",
   },
 };
 

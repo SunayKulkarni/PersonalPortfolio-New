@@ -26,10 +26,10 @@ export async function generateMetadata({
       description: post.metadata.description,
       publishedTime,
       type: "article",
-      url: `https://www.puang.in/blog/${post.slug}`,
+      url: `https://www.sunaydev.vercel.app/blog/${post.slug}`,
       images: [
         {
-          url: `https://www.puang.in/og/blog?title=${post.metadata.title}`,
+          url: `https://www.sunaydev.vercel.app/og/blog?title=${post.metadata.title}`,
         },
       ],
     },
@@ -37,9 +37,9 @@ export async function generateMetadata({
       title: post.metadata.title,
       description: post.metadata.description,
       card: "summary_large_image",
-      creator: "@puangg59",
+      creator: "@SunayKLK",
       images: [
-        `https://www.puang.in/og/blog?title=${post.metadata.title}&top=${publishedTime}`,
+        `https://www.sunaydev.vercel.app/og/blog?title=${post.metadata.title}&top=${publishedTime}`,
       ],
     },
   };
@@ -69,13 +69,13 @@ export default async function Post({
             datePublished: post.metadata.date,
             dateModified: post.metadata.date,
             description: post.metadata.description,
-            image: `https://www.puang.in/og/blog?title=${
+            image: `https://www.sunaydev.vercel.app/og/blog?title=${
               post.metadata.title
             }&top=${formatDate(post.metadata.date)}`,
-            url: `https://www.puang.in/blog/${post.slug}`,
+            url: `https://www.sunaydev.vercel.app/blog/${post.slug}`,
             author: {
               "@type": "Person",
-              name: "Karan Kumar",
+              name: "Sunay Kulkarni",
             },
           }),
         }}
