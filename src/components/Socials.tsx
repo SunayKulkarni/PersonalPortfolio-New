@@ -21,7 +21,7 @@ const socials = [
   {
     title: "resume",
     username: "resume",
-    link: "/public/resume3.pdf",
+    link: "/resume3.pdf",
     icon: RiPagesFill,
   },
   {
