@@ -21,7 +21,7 @@ async function loadGoogleFont(font: string, text: string) {
 
 export async function GET(request: Request) {
   const { searchParams } = new URL(request.url);
-  const title = searchParams.get("title") ?? "puang's blog";
+  const title = searchParams.get("title") ?? "Sunay's blog";
 
   return new ImageResponse(
     (
@@ -40,7 +40,7 @@ export async function GET(request: Request) {
         }}
       >
         <img
-          src="https://www.puang.in/puang.jpg"
+          src="/favicon.ico"
           style={{
             position: "absolute",
             bottom: "40px",

@@ -2,6 +2,7 @@ import Image from "next/image";
 import About from "~/components/About";
 import Education from "~/components/Education";
 import Experience from "~/components/Experience";
+import Skills from "~/components/Skills";
 import Socials from "~/components/Socials";
 
 export default function HomePage() {
@@ -16,7 +17,7 @@ export default function HomePage() {
               alt="Profile Image"
               width={60}
               height={60}
-              className="object-cover w-full h-full grayscale"
+              className="object-cover w-full h-full "
             />
           </div>
         </div>
@@ -27,6 +28,7 @@ export default function HomePage() {
       </div>
 
       <About />
+      <Skills />
       <Experience />
       <Education />
       <Socials />

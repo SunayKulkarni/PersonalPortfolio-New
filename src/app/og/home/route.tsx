@@ -43,7 +43,7 @@ export async function GET(request: Request) {
         }}
       >
         <img
-          src="https://www.puang.in/puang.jpg"
+          src=""
           style={{
             position: "absolute",
             bottom: "40px",

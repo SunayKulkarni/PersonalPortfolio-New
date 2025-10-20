@@ -5,12 +5,12 @@ export default function About() {
         <h2 className="text-3xl font-bold mb-2">
           <span className="text-orange-300">&gt;</span>About
         </h2>
-        <p className="text-gray-500 italic text-xs mb-4">
+        <p className="text-gray-500 italic text-md mb-4">
           [ Backend, Algorithms, Cybersecurity ]
         </p>
       </div>
 
-      <div className="space-y-5 text-sm">
+      <div className="space-y-5 text-md">
         <p className="text-gray-300 leading-relaxed tracking-wide">
           20 y/o cs  cybersec undergrad. i build things—mostly with code.
         </p>

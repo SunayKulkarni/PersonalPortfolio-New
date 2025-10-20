@@ -1,4 +1,5 @@
 import {
+  RiCodeBlock,
   RiGithubFill,
   RiLinkedinBoxFill,
   RiMailFill,
@@ -24,6 +25,13 @@ const socials = [
     link: "/resume3.pdf",
     icon: RiPagesFill,
   },
+
+  {
+  title: "leetcode",
+  username: "SunayKulkarni-LeetCode",
+  link: "https://leetcode.com/SunayKulkarni/",
+  icon: RiCodeBlock,
+},
   {
     title: "email",
     username: "sunaykulkarni17@gmail.com",
@@ -48,7 +56,7 @@ export default function Socials() {
               className="flex items-center gap-3 text-gray-400 hover:text-green-300 transition-colors duration-200"
             >
               <social.icon size={20} />
-              <span className="text-sm">{social.username}</span>
+              <span className="text-md">{social.username}</span>
             </a>
           </div>
         ))}
