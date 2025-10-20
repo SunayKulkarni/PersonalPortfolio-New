@@ -25,7 +25,7 @@ export default function HomePage() {
           <p className="text-2xl text-gray-400">Kulkarni</p>
         </div>
       </div>
-x
+
       <About />
       <Experience />
       <Education />

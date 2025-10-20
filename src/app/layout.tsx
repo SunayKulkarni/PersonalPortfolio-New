@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     siteName: "Sunay Kulkarni",
     locale: "en_US",
     type: "website",
-    images: ["https://www.sunaydev.vercel.app/og/home"],
+    images: [""],
   },
   robots: {
     index: true,

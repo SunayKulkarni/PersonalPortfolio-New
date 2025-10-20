@@ -3,7 +3,7 @@ export default function About() {
     <section className="mb-16 space-y-6">
       <div>
         <h2 className="text-3xl font-bold mb-2">
-          <span className="text-orange-300">&gt;</span> About
+          <span className="text-orange-300">&gt;</span>About
         </h2>
         <p className="text-gray-500 italic text-xs mb-4">
           [ Backend, Algorithms, Cybersecurity ]
