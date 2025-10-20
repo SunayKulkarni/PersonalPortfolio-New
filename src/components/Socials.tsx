@@ -21,13 +21,13 @@ const socials = [
   {
     title: "resume",
     username: "resume",
-    link: "https://puang.in/resume.pdf",
+    link: "/public/resume3.pdf",
     icon: RiPagesFill,
   },
   {
     title: "email",
-    username: "sunaykulakrni17@gmail.com",
-    link: "mailto:sunaykulakrni17@gmail.com",
+    username: "sunaykulkarni17@gmail.com",
+    link: "mailto:sunaykulkarni17@gmail.com",
     icon: RiMailFill,
   },
 ];
