@@ -1,3 +1,14 @@
+---
+title: "Understanding Retrieval-Augmented Generation (RAG)"
+description: "A deep dive into how RAG enhances LLMs with real-time and context-aware data using vector databases like Pinecone."
+date: "2025-11-08"
+---
+
+
+
+
+
+
 # Understanding Retrieval-Augmented Generation (RAG)
 
 In the world of Large Language Models (LLMs) like GPT and Gemini, one major limitation is that **models can’t access new or private information**. They rely solely on the data they were trained on — which can quickly become outdated or incomplete.  
