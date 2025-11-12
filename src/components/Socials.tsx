@@ -29,7 +29,7 @@ const socials = [
   {
   title: "leetcode",
   username: "SunayKulkarni-LeetCode",
-  link: "https://leetcode.com/SunayKulkarni/",
+  link: "https://leetcode.com/u/sunaykulkarni17/",
   icon: RiCodeBlock,
 },
   {
