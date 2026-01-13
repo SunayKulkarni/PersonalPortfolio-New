@@ -22,7 +22,7 @@ const socials = [
   {
     title: "resume",
     username: "resume",
-    link: "/resume3.pdf",
+    link: "/resume6.pdf",
     icon: RiPagesFill,
   },
 
@@ -55,8 +55,8 @@ export default function Socials() {
               rel="noopener noreferrer"
               className="flex items-center gap-3 text-gray-400 hover:text-green-300 transition-colors duration-200"
             >
-              <social.icon size={20} />
-              <span className="text-md">{social.username}</span>
+              <social.icon size={25} />
+              <span className="text-lg">{social.username}</span>
             </a>
           </div>
         ))}

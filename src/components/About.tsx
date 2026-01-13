@@ -11,18 +11,11 @@ export default function About() {
       </div>
 
       <div className="space-y-5 text-md">
-        <p className="text-gray-300 leading-relaxed tracking-wide">
-          20 y/o cs  cybersec undergrad. i build things—mostly with code.
-        </p>
 
         <p className="text-gray-300 leading-relaxed tracking-wide">
-          i like taking ideas and pushing them till they turn into something
-          real. curious by default and problem solving is my jam.
-        </p>
-
-        <p className="text-gray-300 leading-relaxed tracking-wide">
-          into linux distros, building websites, and random tinkering. also into
-          books and movies.
+     Computer science student with a strong interest in data structures, backend development, and cybersecurity.
+    I enjoy solving problems, writing efficient code, and building systems that work reliably at scale.
+     This portfolio highlights my projects, skills, and learning journey.
         </p>
       </div>
     </section>

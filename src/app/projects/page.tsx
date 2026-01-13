@@ -16,11 +16,4 @@ export default function Projects() {
 export const metadata = {
   title: "Projects",
   description: "These are some projects I've worked on.",
-  openGraph: {
-    images: [
-      {
-        url: "https://www.puang.in/og/home?title=projects",
-      },
-    ],
-  },
-};
+  };
