@@ -28,7 +28,6 @@ body::after {
   opacity: 0;
   pointer-events: none;
   z-index: 100;
-  animation: fadeInGrain 2s ease forwards, animateGrain 8s steps(10) infinite;
 }
 
 @keyframes fadeInGrain {
