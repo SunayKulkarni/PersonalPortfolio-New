@@ -10,6 +10,22 @@ export const projectList = [
     gif : "/previews/p1.png",
   },
   {
+    title: "EtherLink",
+    description:
+      "A Layer 2 VPN simulation built using Node.js, allowing users to create secure tunnels for remote access and data transfer.",
+    technologies: ["Python", "C", "Linux"],
+    link: "https://github.com/SunayKulkarni/EtherLink",
+    gif : "/previews/p1.png",
+  },
+  {
+    title: "SentinelPipe",
+    description:
+      "SentinelPipe is an automated end-to-end threat analysis pipeline that accepts multiple input types (files, URLs, IPs, domains, and images) and routes them through specialized analyzers to generate comprehensive threat intelligence reports.",
+    technologies: ["Python", "C", "Linux"],
+    link: "https://github.com/SunayKulkarni/SentinelPipe",
+    gif : "/previews/p1.png",
+  },
+  {
     title: "TerminalTask",
     description: "A command-line task management tool that allows users to create, organize, and track their to-do lists directly from the terminal.",
     technologies: ["javascript", "nodejs"],
