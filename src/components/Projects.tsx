@@ -23,7 +23,7 @@ export const projectList = [
       "SentinelPipe is an automated end-to-end threat analysis pipeline that accepts multiple input types (files, URLs, IPs, domains, and images) and routes them through specialized analyzers to generate comprehensive threat intelligence reports.",
     technologies: ["Python", "C", "Linux"],
     link: "https://github.com/SunayKulkarni/SentinelPipe",
-    gif : "/previews/p1.png",
+    gif : "/previews/p4.png",
   },
   {
     title: "TerminalTask",
