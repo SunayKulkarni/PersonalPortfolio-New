@@ -15,7 +15,7 @@ export const projectList = [
       "A Layer 2 VPN simulation built using Node.js, allowing users to create secure tunnels for remote access and data transfer.",
     technologies: ["Python", "C", "Linux"],
     link: "https://github.com/SunayKulkarni/EtherLink",
-    gif : "/previews/p1.png",
+    gif : "/previews/p5.png",
   },
   {
     title: "SentinelPipe",
