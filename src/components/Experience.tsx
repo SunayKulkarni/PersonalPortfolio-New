@@ -15,12 +15,35 @@ const experience = [
         </ul>
       </>
     ),
-  }
+  },
 ];
 
 export default function Experience() {
   return (
-    <>
-    </>
+    <section id="experience" className="py-16 px-6 max-w-4xl mx-auto">
+      <h2 className="text-3xl font-bold mb-8">Experience</h2>
+
+      <div className="space-y-8">
+        {experience.map((exp, index) => (
+          <div
+            key={index}
+            className="border border-gray-700 rounded-xl p-6 bg-gray-900 shadow-md"
+          >
+            <div className="flex flex-col sm:flex-row sm:justify-between sm:items-center mb-3">
+              <div>
+                <h3 className="text-xl font-semibold">{exp.title}</h3>
+                <p className="text-blue-400">{exp.position}</p>
+              </div>
+
+              <span className="text-sm text-gray-400 mt-2 sm:mt-0">
+                {exp.date}
+              </span>
+            </div>
+
+            <div className="text-gray-300">{exp.description}</div>
+          </div>
+        ))}
+      </div>
+    </section>
   );
 }

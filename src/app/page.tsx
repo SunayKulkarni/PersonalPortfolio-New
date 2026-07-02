@@ -32,7 +32,7 @@ export default function HomePage() {
 
 
       <About />
-      <Skills />
+      <Skills />   
       <Experience />
       <Education />
       <Socials />

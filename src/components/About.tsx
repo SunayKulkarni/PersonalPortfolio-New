@@ -6,7 +6,7 @@ export default function About() {
           <span className="text-orange-300">&gt;</span>About
         </h2>
         <p className="text-gray-500 italic text-md mb-4">
-          [ Backend, Algorithms, Cybersecurity ]
+          [ Full Stack, Backend, Algorithms, Cybersecurity ]
         </p>
       </div>
 
